@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    flex: 20%;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 10%;
+    font-family: "Sour Gummy", sans-serif;
+    color:#ff4500;
+}
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px ;
+}
+.menu a{
+    color:#ff4500;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: white;
+    border-top: 4px solid white;
+}
+#botao{
+    background-color: #ff4500;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin: 5%;
+}
+#botao:hover{
+    border: none;
+    background-color: white;
+    color: #ff4500;
+}
+header
+{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background-color: black;
+    justify-content: right;
+    align-items: center;
+    padding-top: 100px;
+}
+.linha-cabecalho
+{
+    flex: 40%;
+    margin-left: 10%;
+}
+.linha-cabecalho h2
+{
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.linha-cabecalho p
+{
+    text-align: left;
+    color: white;
+}
+.img-cabecalho
+{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+.botao-contato
+{
+    background-color: #ff4500;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
