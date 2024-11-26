@@ -173,9 +173,22 @@ footer
     justify-content: space-around;
     padding: 20px;
 }
-.rodape-contato, .rodape-hora, .rodape-midia, .rodape-mapa
+.rodape-contato h2, .rodape-hora h2, .rodape-midia h2, .rodape-mapa h2
 {
     font-size: 20px;
     color: #ff4500;
     margin-bottom: 10px;
+}
+.rodape-contato, .rodape-hora, .rodape-midia
+{
+    
+    font-size: 20px;
+    color: #ff4500;
+    margin-bottom: 10px;
+}
+.rodape-mapa
+{
+   display: block;
+   justify-content: center;
+   align-items: center;
 }
