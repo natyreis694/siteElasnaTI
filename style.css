@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+*
+{
     box-sizing: border-box;
 }
-body{
+body
+{
     margin: 0;
 }
-.navbar{
+.navbar
+{
     display: flex;
     flex-flow: row wrap;
     height: 100px;
@@ -15,7 +19,8 @@ body{
     width: 100%;
     background-color: black;
 }
-.logo{
+.logo
+{
     flex: 20%;
     text-align: left;
     font-size: 24px;
@@ -23,22 +28,26 @@ body{
     font-family: "Sour Gummy", sans-serif;
     color:#ff4500;
 }
-.menu{
+.menu
+{
     flex: 70%;
     text-align: right;
     padding: 20px ;
 }
-.menu a{
+.menu a
+{
     color:#ff4500;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
 }
-.menu a:hover{
+.menu a:hover
+{
     color: white;
     border-top: 4px solid white;
 }
-#botao{
+#botao
+{
     background-color: #ff4500;
     padding: 10px 25px;
     color: white;
@@ -46,7 +55,8 @@ body{
     margin-right: 10px;
     margin: 5%;
 }
-#botao:hover{
+#botao:hover
+{
     border: none;
     background-color: white;
     color: #ff4500;
@@ -94,4 +104,78 @@ header
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+}
+.info
+{
+    margin-top: 80px;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    background-color: blanchedalmond;
+}
+.info h2
+{
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff4500;
+    font-family: "Bokor", system-ui;
+}
+.culinaria
+{
+    display: inline-block;
+    margin: 5px;
+}
+.card
+{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover
+{
+    background-color: #ff4500;
+    color: white;
+    padding: 4px;
+}
+.card:hover img
+{
+    display: none;
+}
+.texto-oculto
+{
+    display: none;
+}
+.card:hover .card-text
+{
+    display: none;
+}
+.card:hover .texto-oculto
+{
+    display: block;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.rodape-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.rodape-contato, .rodape-hora, .rodape-midia, .rodape-mapa
+{
+    font-size: 20px;
+    color: #ff4500;
+    margin-bottom: 10px;
 }
