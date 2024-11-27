@@ -1,11 +1,15 @@
+body
+{
+    background-color: blanchedalmond;
+}
 .historia
 {
-   font-size: 30px;
-   color: red;
-   padding: 20px;
-   text-align: center;
+  padding: 20px;
+  color: red;
+  font-size: 30px;
+  text-align: center;
 }
-.blocopai
+#blocopai, #expansao, #atualidade
 {
     padding: 20px;
     margin-left: 10%;
@@ -19,7 +23,7 @@
 {
     color: red;
     font-size: 30px;
-    border-bottom: 3px solid red;
+    border-bottom: 2px solid red;
     padding-bottom: 10px;
 }
 .p
@@ -36,4 +40,44 @@
     border: 5px solid red;
     height: 400px;
     width: 600px;
+}
+/*adicionando transições*/
+#inicio
+{
+    transition: transform 0.3s ease-in-out;
+}
+#expansao
+{
+    transition: transform 0.3s ease-in-out;
+}
+#atualidade
+{
+    transition: transform 0.3s ease-in-out;
+}
+#inicio:hover
+{
+    transform: scale(1.05);
+}
+#expansao:hover
+{
+    transform: scale(1.05);
+}
+#atualidade:hover
+{
+    transform: scale(1.05);
+}
+@keyframes slideIn
+{
+    from
+    {
+        transform: translateY(-100%);
+    }
+    to 
+    {
+        transform: translateY(0);
+    }
+}
+.historia
+{
+    animation: slideIn 1s ease-out;
 }
