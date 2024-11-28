@@ -1,0 +1,39 @@
+.primeiro
+{
+    padding: 120px 20px 20px 20px;
+}
+.menu-item
+{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rbga(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.menu-item img
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.descricao
+{
+    padding: 20px;
+    flex-grow: 1;
+}
+.descricao h2
+{
+    margin: 0;
+    font-size: 25px;
+    color: brown;
+}
+.descricao p
+{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #666;
+}
